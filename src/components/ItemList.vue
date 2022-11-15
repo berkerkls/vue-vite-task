@@ -4,7 +4,7 @@
             v-if="list"
             >To Studies
             </v-list-subheader>
-            <template v-for="item in list" :key="item.name">
+            <template v-for="item in list" :key="item.id">
                 <v-list-item >
                     <v-col col="4">
                         <v-row justify-md >

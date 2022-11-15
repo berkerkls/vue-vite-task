@@ -73,7 +73,7 @@ export default defineComponent({
   name:"InputSection",
   data() {
     return {
-      inputs : reactive({name: "", url: ""})
+      inputs : reactive({name: "", url: "",id: 0})
     }
   },
   computed: {
